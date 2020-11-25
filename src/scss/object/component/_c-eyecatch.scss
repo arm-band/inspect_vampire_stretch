@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.c-eyecatch {
+    background: {
+        image: url(../img/vampire_stretch.jpg);
+        position-x: center;
+        position-y: bottom; /* コレ */
+        attachment: fixed; /* コレ */
+        repeat: no-repeat;
+        size: cover; /* コレ */
+    }
+    height: 600px;
+    border-radius: 15px; /* コレ */
+}
